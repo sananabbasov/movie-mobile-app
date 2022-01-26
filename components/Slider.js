@@ -28,7 +28,7 @@ const displaySlider = (item) => {
             <View style={styles.container}>
                 <Image
                     style={styles.thumbnail}
-                    blurRadius={6}
+                    blurRadius={1}
                     source={{
                         uri: 'https://s3.amazonaws.com/heights-photos/wp-content/uploads/2021/12/01114542/Netflix-Pays-Big-for-Red-Notice-Cast2-1145x628.jpeg'
                     }}
@@ -45,14 +45,7 @@ const displaySlider = (item) => {
 
                 </View>
                 <View style={styles.posterContainer}>
-                    <View style={styles.posterInfo}>
-                        <Image
-                            style={styles.poster}
-                            source={{
-                                uri: 'https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg'
-                            }}
-                        />
-                    </View>
+                   
 
                 </View>
 
@@ -157,7 +150,7 @@ const styles = StyleSheet.create({
     },
     posterContainer: {
         width: 150,
-        height: 250,
+        height: 50,
         position: 'relative',
         left: 10,
         top: -150,
@@ -173,7 +166,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: 0,
         left: 10,
-        top: 50,
+        top: 180,
         maxWidth: 300
     },
     posterTextDesing: {

@@ -26,7 +26,7 @@ const Junior = () => {
     }, []);
   return (
     <View style={styles.cinemalabContainer}>
-        <Text style={styles.cinemalabTitle}>Seriallar</Text>
+        <Text style={styles.cinemalabTitle}>Junior</Text>
     <View>
         {isLoading ? <ActivityIndicator /> : (
             <FlatList
